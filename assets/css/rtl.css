@@ -162,6 +162,7 @@
 .track-product .track-text .newsletter-form .default-btn {
     left: 5px;
     right: auto;
+    left: 50%;
 }
 .facilities-section .facilities-text ul {
     padding-right: 0;

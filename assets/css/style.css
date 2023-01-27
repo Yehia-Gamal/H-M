@@ -214,6 +214,16 @@ h3 {
   border-radius: 50%;
 }
 
+.images-landing {
+  width: 80%;
+}
+
+.images-landing img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+}
+
 /* Test Edit */
 
 
@@ -1290,38 +1300,24 @@ h3 {
 
 .feedback-section .feedback-slider .feedback-items {
   text-align: center;
-  max-width: 450px;
+  width: 450px;
+  height: 450px;
   margin: auto;
+  background-color: #3c0c70;
+  border-radius: 20px;
 }
 
 .feedback-section .feedback-slider .feedback-items i {
-  font-size: 50px;
+  margin: 5px;
+  font-size: 30px;
   color: #ffffff;
-  margin-bottom: 35px;
   display: inline-block;
-}
-
-.feedback-section .feedback-slider .feedback-items p {
-  margin-bottom: 40px;
-  color: #ffffff;
 }
 
 .feedback-section .feedback-slider .feedback-items img {
   max-width: 100%;
-  margin: 45px auto 10px;
-  width: unset;
-}
-
-.feedback-section .feedback-slider .feedback-items h3 {
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-
-.feedback-section .feedback-slider .feedback-items span {
-  color: #ffffff;
-  margin-bottom: 0;
-  font-size: 16px;
-  display: inline-block;
+  margin: auto;
+  width: 450px;
 }
 
 .feedback-section .feedback-slider .owl-prev,
